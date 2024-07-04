@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Iara</string>
+    <string name="risco_deslizamento">Risco de Deslizamento</string>
+    <string name="telefones_uteis">Telefones Úteis</string>
+    <string name="encontre_abrigos">Encontre Abrigos</string>
+    <string name="alertas_busca_resgatados">Alertas de Busca de Resgatados</string>
+    <string name="defesa_civil">Defesa Civil</string>
+    <string name="bombeiros">Bombeiros</string>
+    <string name="policia_militar">Polícia Militar</string>
+    <string name="encontre_abrigo">Encontre Abrigo</string>
+    <string name="faca_login_para_acessar">Faça o Login para acessar</string>
+    <string name="email">Email</string>
+    <string name="senha">Senha</string>
+    <string name="esqueceu_senha">Esqueceu a senha?</string>
+    <string name="entrar">Entrar</string>
+    <string name="ou">ou</string>
+    <string name="login_google">Login com o Google</string>
+    <string name="login_facebook">Login com o Facebook</string>
+    <string name="novo_usuario_criar_conta">Novo usuário? Criar uma conta agora</string>
+    <string name="busca_resgatados">Busca de Resgatados</string>
 </resources>
