@@ -25,6 +25,10 @@
     <string name="previous">Previous</string>
     <string name="alerta">Alerta</string>
     <string name="acessar_sem_login">Acessar sem login</string>
+    <string name="back_button_desc">Voltar</string>
+    <string name="you_did_it">Você conseguiu</string>
+    <string name="capibara_icon_desc">Ícone de Capivara</string>
+    <string name="capibas">Capibas</string>
 
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris

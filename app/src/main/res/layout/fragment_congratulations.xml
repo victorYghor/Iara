@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#D3D3D3">
+
+    <!-- Botão de voltar -->
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/back"
+        android:contentDescription="@string/back_button_desc"
+        android:tint="@color/brown"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp" />
+
+    <!-- Texto de sucesso -->
+    <TextView
+        android:id="@+id/success_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/you_did_it"
+        android:textSize="48sp"
+        android:textColor="@color/brown"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp" />
+
+    <!-- Número e ícone -->
+    <LinearLayout
+        android:id="@+id/number_icon_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/number_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            android:textColor="@color/brown"
+            android:layout_marginBottom="16dp" />
+
+        <ImageView
+            android:id="@+id/capibara_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/capivara"
+            android:contentDescription="@string/capibara_icon_desc"
+            android:layout_marginBottom="16dp" />
+    </LinearLayout>
+
+    <!-- Texto de capibas -->
+    <TextView
+        android:id="@+id/capibas_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/capibas"
+        android:textSize="24sp"
+        android:textStyle="normal"
+        android:textColor="@color/brown"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/number_icon_container"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>
