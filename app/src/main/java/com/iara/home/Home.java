@@ -1,4 +1,4 @@
-package com.iara;
+package com.iara.home;
 
 import android.os.Bundle;
 import com.google.android.material.snackbar.Snackbar;
@@ -8,6 +8,8 @@ import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
+
+import com.iara.R;
 import com.iara.databinding.ActivityHomeBinding;
 
 public class Home extends AppCompatActivity {
