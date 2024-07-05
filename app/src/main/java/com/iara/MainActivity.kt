@@ -23,15 +23,5 @@ class MainActivity : AppCompatActivity() {
         b = ActivityMainBinding.inflate(layoutInflater)
         val view: View = b.root
         setContentView(view)
-        b.composeView.apply {
-            setViewCompositionStrategy((ViewCompositionStrategy.DisposeOnViewTreeLifecycleDestroyed))
-            setContent {
-                Text(
-                    text = "Texto branco com fundo preto",
-                    style = TextStyle(color = Color.White, fontSize = 18.sp)
-                )
-
-            }
-        }
     }
 }
