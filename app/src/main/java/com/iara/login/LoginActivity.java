@@ -65,20 +65,6 @@ public class LoginActivity extends AppCompatActivity {
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
         mAuth = FirebaseAuth.getInstance();
 
-        binding.test.setOnClickListener(
-                new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        signInRequest = BeginSignInRequest.builder()
-                                .setGoogleIdTokenRequestOptions(BeginSignInRequest.GoogleIdTokenRequestOptions.builder()
-                                        .setSupported(true)
-                                        .setFilterByAuthorizedAccounts(true)
-                                        .build())
-                                .build();
-
-                    }
-                }
-        );
     }
 
     @Override

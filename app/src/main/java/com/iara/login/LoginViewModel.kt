@@ -1,9 +1,10 @@
-package com.iara.login;
+package com.iara.login
 
-import androidx.lifecycle.MutableLiveData;
-import androidx.lifecycle.ViewModel;
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
 
-public class LoginViewModel extends ViewModel {
-    MutableLiveData<Boolean> isLoggedIn = new MutableLiveData<Boolean>(false);
+class LoginViewModel : ViewModel() {
+    @JvmField
+    var isLoggedIn = MutableLiveData<Boolean>(false)
 
 }
