@@ -1,4 +1,4 @@
-package com.iara.Question;
+package com.iara.Quiz;
 
 import android.os.Bundle;
 import android.widget.TextView;
