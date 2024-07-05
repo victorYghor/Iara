@@ -1,6 +1,7 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -65,4 +66,7 @@ dependencies {
     implementation ("androidx.compose.runtime:runtime-livedata")
     implementation ("androidx.compose.ui:ui-tooling")
     implementation ("com.google.accompanist:accompanist-themeadapter-material:0.28.0")
+    // firebase
+    implementation(platform("com.google.firebase:firebase-bom:33.1.1"))
+    implementation("com.google.firebase:firebase-analytics")
 }
