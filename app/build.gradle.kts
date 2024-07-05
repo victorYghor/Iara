@@ -31,6 +31,9 @@ android {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.5.2"
+    }
     kotlinOptions {
         jvmTarget = "1.8"
     }
@@ -54,18 +57,18 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
-    val composeBom = platform("androidx.compose:compose-bom:2022.10.00")
+    val composeBom = platform("androidx.compose:compose-bom:2023.03.00")
     implementation(composeBom)
     androidTestImplementation(composeBom)
 
-    implementation ("androidx.compose.runtime:runtime")
-    implementation ("androidx.compose.ui:ui")
-    implementation ("androidx.compose.foundation:foundation")
-    implementation ("androidx.compose.foundation:foundation-layout")
-    implementation ("androidx.compose.material:material")
-    implementation ("androidx.compose.runtime:runtime-livedata")
-    implementation ("androidx.compose.ui:ui-tooling")
-    implementation ("com.google.accompanist:accompanist-themeadapter-material:0.28.0")
+    implementation("androidx.compose.runtime:runtime")
+    implementation("androidx.compose.ui:ui")
+    implementation("androidx.compose.foundation:foundation")
+    implementation("androidx.compose.foundation:foundation-layout")
+    implementation("androidx.compose.material:material")
+    implementation("androidx.compose.runtime:runtime-livedata")
+    implementation("androidx.compose.ui:ui-tooling")
+    implementation("com.google.accompanist:accompanist-themeadapter-material:0.28.0")
     // firebase
     implementation(platform("com.google.firebase:firebase-bom:33.1.1"))
     implementation("com.google.firebase:firebase-analytics")
