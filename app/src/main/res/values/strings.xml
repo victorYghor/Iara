@@ -13,7 +13,7 @@
     <string name="senha">Senha</string>
     <string name="esqueceu_senha">Esqueceu a senha?</string>
     <string name="entrar">Entrar</string>
-    <string name="ou">ou</string>
+    <string name="ou">------ ou ------</string>
     <string name="login_google">Login com o Google</string>
     <string name="login_facebook">Login com o Facebook</string>
     <string name="novo_usuario_criar_conta">Novo usuário? Criar uma conta agora</string>
@@ -24,6 +24,7 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
     <string name="alerta">Alerta</string>
+    <string name="acessar_sem_login">Acessar sem login</string>
 
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
