@@ -4,6 +4,152 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="16dp"
     tools:context=".home.HomeActivity">
+
+    <RelativeLayout
+        android:id="@+id/layout_risco_deslizamento"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:padding="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:id="@+id/iv_risco_deslizamento"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_risco_deslizamento"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/tv_risco_deslizamento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/risco_deslizamento"
+            android:layout_below="@id/iv_risco_deslizamento"
+            android:layout_marginTop="8dp"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_telefones_uteis"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/layout_risco_deslizamento"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:id="@+id/iv_telefones_uteis"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_telefones_uteis"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/tv_telefones_uteis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/telefones_uteis"
+            android:layout_below="@id/iv_telefones_uteis"
+            android:layout_marginTop="8dp"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_encontre_abrigos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/layout_telefones_uteis"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:id="@+id/iv_encontre_abrigos"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_encontre_abrigos"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/tv_encontre_abrigos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/encontre_abrigos"
+            android:layout_below="@id/iv_encontre_abrigos"
+            android:layout_marginTop="8dp"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_alertas"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/layout_encontre_abrigos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:id="@+id/iv_alertas"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_alertas"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/tv_alertas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alerta"
+            android:layout_below="@id/iv_alertas"
+            android:layout_marginTop="8dp"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_busca_resgatados"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/layout_alertas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_busca_resgatados"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_busca_resgatados"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/tv_busca_resgatados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/busca_resgatados"
+            android:layout_below="@id/iv_busca_resgatados"
+            android:layout_marginTop="8dp"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+    </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
